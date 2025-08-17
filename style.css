@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(139, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cal_body{
+    height: 50%;
+    width: 50%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    /* gap: 5%; */
+    box-shadow: 10px 10px 20px;
+    border-radius: 5%;
+    
+
+}
+.display{
+    height: 15%;
+    width: 100%;
+   
+    background-color: rgb(190, 177, 177);
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.input{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.row1,.row2,.row3,.row4,.row5{
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+button{
+    height: 100%;
+    width: 20%;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 20px;
+    transition-duration: .2s;
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+
+}
+button:hover{
+    scale: 1.05;
+    background-color: rgb(253, 185, 185);
+}
